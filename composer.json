@@ -1,0 +1,21 @@
+{
+    "name": "combo/manage",
+    "description": "dev",
+    "type": "composer-plugin",
+    "require": {
+        "wp-coding-standards/wpcs": "2.1"
+    },
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Combo\\Manage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tuhin",
+            "email": "khaled.softsolvers@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
